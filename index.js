@@ -48,6 +48,12 @@ function hoursWorkedOnDate(obj, ds){
   return (timeOut.hour - timeIn.hour)/100
 }
 
+function wagesEarnedOnDate(obj, ds){
+  let hoursWorked = hoursWorkedOnDate(obj, ds)
+  let pay = obj.payPerHour
+  return (hoursWorked * pay)
+}
+
 
 
 
