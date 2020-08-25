@@ -24,3 +24,19 @@ function createTimeInEvent(obj, ds){
     })
     return obj
 }
+
+function createTimeOutEvent(obj, ds){
+  let dateTime = ds.split(' ')
+  obj.timeOutEvents.push(
+    {
+      type: 'TimeOut',
+      hour: parseInt(dateTime[1]),
+      date: dateTime[0]
+    })
+    return obj
+}
+
+
+
+
+
