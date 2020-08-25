@@ -37,7 +37,9 @@ function createTimeOutEvent(obj, ds){
 }
 
 function hoursWorkedOnDate(obj, ds){
-  time
+  function time(element){
+    return 
+  }
   
   
   let timeIn = obj.timeInEvents.find()
