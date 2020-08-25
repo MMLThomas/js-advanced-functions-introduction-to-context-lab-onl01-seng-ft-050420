@@ -38,7 +38,7 @@ function createTimeOutEvent(obj, ds){
 
 function hoursWorkedOnDate(obj, ds){
   function time(element){
-    return 
+    return element.date === ds
   }
   
   
