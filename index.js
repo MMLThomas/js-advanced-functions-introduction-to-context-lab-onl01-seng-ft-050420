@@ -10,4 +10,6 @@ function createEmployeeRecord(array){
   }
 }
 
-function createTimeOutEvent()
+function createEmployeeRecords(array){
+  return array.map(element => createEmployeeRecord(element))
+}
