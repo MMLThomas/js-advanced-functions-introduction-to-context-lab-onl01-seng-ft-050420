@@ -45,7 +45,7 @@ function hoursWorkedOnDate(obj, ds){
   let timeIn = obj.timeInEvents.find(time)
   let timeOut = obj.timeOutEvents.find(time)
   
-  return (timeOut.hour - timeIn.hour)
+  return (timeOut.hour - timeIn.hour)/100
 }
 
 
