@@ -22,4 +22,5 @@ function createTimeInEvent(obj, ds){
       hour: parseInt(dateTime[1]),
       date: dateTime[0]
     })
+    return obj
 }
