@@ -54,7 +54,11 @@ function wagesEarnedOnDate(obj, ds){
   return (hoursWorked * pay)
 }
 
-
+function allWagesFor(obj){
+  let days = obj.timeInEvents.map(element => element.date)
+  let wages = days.map(element => wagesEarnedOnDate(obj, element))
+  wages.reduce()
+}
 
 
 
