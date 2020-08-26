@@ -64,7 +64,7 @@ function findEmployeeByFirstName(srcArray, firstName){
   function match(element){
     return (element.firstName === firstName);
   }
-  srcArray.find()
+  return srcArray.find(match)
 }
 
 
