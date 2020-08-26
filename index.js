@@ -61,7 +61,10 @@ function allWagesFor(obj){
 }
 
 function findEmployeeByFirstName(srcArray, firstName){
-  
+  function match(element){
+    return (element.firstName === firstName);
+  }
+  srcArray.find()
 }
 
 
