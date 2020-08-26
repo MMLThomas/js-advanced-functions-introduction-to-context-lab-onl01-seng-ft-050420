@@ -60,5 +60,8 @@ function allWagesFor(obj){
   return wages.reduce(function(total, element){return element + total},0);
 }
 
+function findEmployeeByFirstName(srcArray, firstName){
+  
+}
 
 
